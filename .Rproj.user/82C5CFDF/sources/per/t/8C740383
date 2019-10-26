@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1571901644077.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3748115337",
+    "id" : "8C740383",
+    "lastKnownWriteTime" : 1571924598,
+    "last_content_update" : 1571924598554,
+    "path" : "E:/Data Manipulation/tafsiri_biblia/tafsiri.Rmd",
+    "project_path" : "tafsiri.Rmd",
+    "properties" : {
+        "cursorPosition" : "40,254",
+        "scrollLine" : "21"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

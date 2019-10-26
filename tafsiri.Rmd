@@ -1,0 +1,133 @@
+---
+title: "Tafsiri Ya Maandiko Ya Kinabii"
+author: ""
+date: "`r Sys.Date()`"
+output: 
+    # bookdown::html_document2
+      tufte::tufte_handout: 
+          citation_package: natbib
+          latex_engine: xelatex
+          includes:
+                # in_header: header.tex
+                before_body: doc_prefix.tex
+                after_body: doc_suffix.tex
+      # tufte::tufte_html: default
+toc: true
+fontsize: 12 pts
+linestretch: 1.5
+keep_tex: yes
+geometry: margin=1.5in
+biblio-title: References
+bibliography: tafisri.bib
+link-citations: yes
+
+header-includes:
+  - \usepackage{titling}
+  - \pretitle{\begin{center}\LARGE\includegraphics[width=15cm]{out_sight.jpg}\\[\bigskipamount]}
+  - \posttitle{\end{center}}
+  - \usepackage{float}
+  - \floatplacement{figure}{H}  ##make every figure with caption = h, this was the fix
+  - \usepackage{fontspec}
+  - \setmainfont{Adobe Caslon Pro} ## set fornt to Time New Roman
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message = FALSE)
+
+```
+
+\newpage
+# UNABII {-}
+Kumekuwa na kawaida au mazoea ya watu kutoa tafsiri mbalimbali juu ya maandiko yaliyopo katika kitabu cha Biblia. Maneno haya yamekuwa yakitolewa katika vyanzo tofauti tofauti, ikiwemo nakala mbalimbali ya vyuoni au mafunuo mbalimbali watu waliyovuviwa. Unabii unatokana na neno la kigiriki **propheteia**, ikiwa ni ujumbe ulioongozwa na Mungu---ufunuo kutoka kwa Mungu^[*....mambo yale aliyohubiri Mungu tangu zamani kwa kinywa cha manabii wake wote, ya kwamba Kristo wake atateswa, ameyatimiza*---**Kutoka** 3:18]. Hii ina maana kuwa nabii ni mtu anayepokea ujumbe kutoka kwa Mungu na kuufikisha kwa watu wengine[ [@tufte].
+
+\setlength{\parskip}{1.5ex}
+
+Swali la msingi kwa watu wote lingekuwa je, tafsiri hizo zinashabiana na maandiko au shabaha ya MUNGU? ^[*“Ole wenu waalimu wa sheria na Mafarisayo, wanafiki! Mnasafiri baharini na nchi kavu ili kumpata mtu mmoja afuate dini yenu. Mnapompata, mnamfanya astahili maradufu kwenda katika moto wa Jehanamu kuliko nyinyi wenyewe"*---**Mathayo** 23:15] Tafsiri za maandiko ya kinabii zina maana tofauti, kutegemea na wakati na maudhui. Unakuta neno moja limetumika sehemu tofauti tofauti na kwa maana tofauti. Na unaweza kukuta maneno tofauti yenye maana moja. Haya ni baadhi ya maneno ambayo ni maarufu kutumika katika mahubiri na mafundisho mbalimbali
+
+# MTI {-}
+
+1. **Tunda**: neno hili ni la kinabii linalosimamia *maisha*---matokeo ya matendo ya mtu. Maana hata tunda ni matokeo ya mti. Kwa mfano Yesu anasema ^[*mtawataumbua kwa matunda yao*---**Mathayo** 7:16]. Maana ya maneno haya ilikuwa kwa matokeo ya matendo katika maisha yao ndio mtawatambua kama ni watumishi wa Mungu au wa Ibilisi. 
+
+1. **Mti**: neno hili ni la kinabii linalosimamia *mtumishi*^[*"....ikiwa wanautendea hivi mti mmbichi, vipi wataeutendea mti mkavu*---**Luka** 23:31"]. Neno mtilimegawanyika katika makundi mawili: mti mbichi na mti makavu. Je maneno haya tofauti yake ni nini?
+
+      + **Mti mmbichi** unasimamia mtumishi wa Mungu anaesimamia shabaha ya Mungu---anatumikia kusudi la Roho
+      + **Mti mkavu** ni mtumishi alieacha kusudi na kugeukia njia ya mwili. 
+1. **Matawi**^[*Mimi ni mzabibu; ninyi ni matawi, akaaye ndani yangu nami ndani yake*---**Yohana** 15:5] ni wanafunzi waliokatika Yesu Kristo 
+1. **Shina**: ni Yesu Kristo (**Yohana 15:5**)
+1. **Mashina** ni wakuu wa dini
+1. **Majani**: neno hili ni la kinabii linasimamia *maneno*---
+1. Maneno kama **Magome**, **Ngozi** na **Magamba** yanasimamia matendo ya mwilini au nia ya mwilini
+
+```{marginfigure, echo = TRUE}
+We know from _the first fundamental theorem of calculus_ that
+for $x$ in $[a, b]$:
+$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$
+```
+
+# VIVIMINIKA {-}
+1. **Damu** ni nia ya roho
+
+1. **Maji** yanasimamia Roho. Na Roho hizo zimegawanyika katika mifano inayotambulika na wanadamu. Kwa mfano;
+      + **Chemchem** ina maanisha Roho Mtakatifu
+      + **Maji ya mto**^[*"mito ya maji yaliyo hai itatoka ndani yake. Na neno hilo alilisema kuhusu Roho, ambaye wale wamwaminio watampokea baadaye; kwa maana Roho alikuwa hajaja, kwa sababu Yesu alikuwa hajatukuzwa"*---**Yohana** 7:38--39] ina maanisha Roho Mtakatifu  
+      
+      + **Maji ya bahari** ni roho za watu, makabila na mataifa. Pia ina maanisha roho za dini---hii ndio kubwa zaidi. 
+      + **Maji baridi** ni nia ya mwili
+      + **Maji moto** ni nia ya Roho Mtakatifu
+      + **Vuguvugu**^[_Najua kwamba wewe si baridi wala si moto. Afadhali ungekuwa kimojawapo: Baridi au moto. Basi, kwa kuwa hali yako ni vuguvugu, si baridi wala si moto, nitakutapika!_---**Ufunuo** 3:15--16] ni uzao wa katikati, Mungu alioulaani 
+      
+1. **Udongo** ni nia ya mwili[Mwili]
+
+1. **Tope** ni uzao wa katikati. Ni uzao uliolaniwa unaotokana na mchanganyiko wa kazi mbili. Maji na Udongo ambao zao lake ni tope. Yaani mtu anayechanganya matendo ya Roho na Mwili ^[*“Ole wenu waalimu wa sheria na Mafarisayo, wanafiki! Mnasafiri baharini na nchi kavu ili kumpata mtu mmoja afuate dini yenu. Mnapompata, mnamfanya astahili maradufu kwenda katika moto wa Jehanamu kuliko nyinyi wenyewe"*---**Mathayo** 23:15]. Mtu anayechanga Matendo ya Roho na Mwili ni uzao wa katikati. Kufanya matendo mema na maovu huo ndio Biblia inauita **UNAFIKI**
+
+1. **Mbele**^[*Tazama naenda mbele, wala hayupo; narudi nyuma lakini siwezi kumwona. Na mkono wa kushoto, afanyapo kazi, lakini siwezi kumuona; hujificha upande wa kuume, hata nisimuone.  *---**Ayubu** 23:8--9] ni ulimwengu wa Roho
+1. **Nyuma**  ni ulimwengu wa mwili
+1. **Kulia** ni utendaji wa Mungu au Yesu Kristu
+1. **Kushoto**^[*"..ataweka kondoo mkono wa kulia na mbuzi mkono wake wa kushoto"*---**Mathayo** 25:33]  ni utendaji wa shetani au ibilisi
+1. **Upepo**^[*"..upepo huvuma upendapo, na sauti yake waisikia, lakini hujui utokako wala unakokwenda; kadahalika na hali yake kila mtu aliyezaliwa kwa Roho"*---**Yohana** 3:8, *angalia pia*, **Mwanzo** 2:7] ni Roho
+1. **Mbingu** inasimamia utukufu wa Mungu. Mbingu pia inasimamia Roho, lakini pia mbingu inasimai wenye haki. 
+1. **Nchi** ^[*Sikieni, enyi mbingu, tega sikia, ee nchi, kwa maana Bwana amenena; nimewalisha watoto na kuwalea, nao wameniasi*---**Isaya** 1:2, *angalia pia*, **Mathayo** 5:34--35] ni udhaifu wa mwili. Nchi inasimamia wenye dhambi
+1. **Moto** unasimamia Roho Mtakatifu
+1. **Kichwa** kinasimamia Yesu Kristo
+1. **Macho** ni manabii, ila manabii wanaongelewa hapa wamegawanyika katika makundi mawili nayo ni;
+      + **Jicho la kuume**^[*"Jicho lako la kuume likikukosesha, ling'oe ulitupe mbali nawe, kwa maana yakufaa kiungo chako kimoja kipotee wala mwili wako mzima usitupwe katika Jehenamu."*---**Mathayo** 5:29] ni nabii wa kweli
+      + **Jicho la kushoto** nabii wa uongo. 
+1. **Miguu**^[*"...ni mizuri kama nini miguu yao wahubiriyo Habari Njema"*, *pia soma*, **Mhubiri** 6:18] inasimamia huduma ya uinjilisti. 
+1. **Joho/kanzu[mavazi]** inasimamia maisha. 
+1. **Viatu**^[*"...lakini yuaja mtu mwenye nguvu kuliko mimi, ambaye mimi sistahili kuilekeza gidamu ya viatu vyake..."*---**Luka** 3:15] pia inasimamia huduma ya Mungu
+1. **Mkono** ni mtumishi, ambao umegawanyika makundi mawili, nayo ni
+    +  **Mkono wa kuume** ni mtumishi wa kweli
+    + **Mkono wa kushoto**^[*"...mkono wako wa kuume ukikukosesha, ukate uutupe mbali nawe; kwa maana yakufaaa kiungo chako kimoja kupotea wala mwili wako mzima usitupwe katika Jehenamu"*---**Mathayo** 5:30, *pia soma*, **Mathayo** 25:41] ni mtumishi wa uongo
+1. **Mvinyo**
+1. **Zabibu**
+1. **Shamba** ni dunia. Maana yake ni kwamba---shambani ndiko hulimwa ngano na magugu huota shambani, hivyo duniani[shambani] hukaa wote, wema[ngano] na wabaya[magugu] mpaka watakapotenganishwa. 
+1. **Ghala** ni kanisa
+1. **Ngano**^[*"Viacheni vyote vikuwe hata wakati wa mavuno; na wakati wa mavuno nitawaambia wavunao, yakusanyeni kwana magugu, myafunge matita matita mkayachome; bali ngano ikusanyeni gharani pangu"*---**Mathayo** 13:30] ni wana wa nuru
+1. **Magugu** ni wana wa giza
+1. **Upanga** inasinasimamia maneno
+1. **Kinara** cha hekalu inasimamia ukuu zaidi yakuhani mkuu-mfano wakati wa kujaribiwa kwa Yesu kristo tunaona ibilisi alimpandisha juu ya kinara cha hekalu kisha akamuonesha milki yote kwa lugha ya kinabii ni kwamba yesu alijaribiwa kuwekwa hata juu ya kuhani mkuu yaani apewe ukuu juu ya kuhani mkuu kwa nzmnz yz mwilini
+1. **Patakatifu pa patakatifu** ilikuwa mfano wa utukufu wa mbinguni
+1. **Mkate** ni fumbo linalosimamia mwili wa kristo na mwili wa kristo unasimamia maisha ya utakatifu
+1. **Nira** inasimamia [elimu au fundisho]
+1. **Mlima** inasimamia roho ya kujiinua au roho ya dini
+1. **Nyika**  inasimamia roho ya dini
+1. **Jangwa** inasimamia roho ya dini
+1. **Kibanda** inasimamia dini
+
+# WANYAMA
+1. **Ng'ombe** anasimamia mtumishi wa Mungu mwenye ufunuo
+1. **Punda** inasimamia mtumishi wa Mungu anayetumia na bwana ila asiye na ufunuo
+1. **Punda mwitu** kadhalika ni mtumishi aisiye na ufunuo anayetumikia dini
+1. **Kondoo** amefananishwa na wana wanyenyekevu kwa Mungu 
+1. **Mbuzi** amefananishwa na mwana wa uovu
+1. **Simba wa kabila la yuda** alimsimamia Yesu kristo
+1. **Mbwa** ni mtumishi asiyesimamia sheria ya Mungu impasavyo
+1. **Mbwa mwitu** ni mtumishi wa Mungu aliyeliacha kundi na kwenda kutumikia dini naye huligeukia kundi la bwana na kulirarua
+1. **Nguruwe** ni mtumishi wa Mungu aisiyekuwa na ufunua maana hacheuwi
+1. **Kambale** ni watumishi wasiokuwa na shabaha ya roho maana huchanganya mambo ya roho na mambo ya mwili ambayo ni chukuzo mbele za Mungu
+1. **Njiwa** amefananishwa na Roho mtakatifu
+1. **Nyoka** ni mtumishi aaliyelaaniwa naye hufanya kazi ya Mungu kwa maslahi yake binafsi yaani mchumia tumbo kwa maana alishapata laana tona mwanzo kwamba atakwenda kwa tumbo na atakula mavumbi ya nchi na biblia inasema tu,nbo ni kwa chakula na chakula ni kwa tumbo
+
+
+
+
